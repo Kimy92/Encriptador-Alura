@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel = "stylesheet" href="Style.css">
+
+    </head>
+    <body>
+
+        <header>
+            <img class= "logo" src="Imagenes/Logo.png">
+        </header>
+        <main>
+            <section> 
+                <textarea class="textarea" cols="30" rows="10" id="textarea"  placeholder="Ingrese el texto aqui" ></textarea>
+
+                <div >
+                    <h6 class="indicacion">&#9888; Solo letras minúsculas y sin acentos</h6>                    
+                </div>
+                <div class="botones">
+                    <button class="boton-encriptar" onclick="botonencriptar()" id="encriptar">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="botondesencriptar()" id="desencriptar">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section > 
+                <textarea  class="mensaje" cols="20" rows="10" id="mensaje"  ></textarea>
+
+                <div>
+                    <button class="boton-copiar" onclick="botoncopiar()" id="copiar">Copiar</button>
+        
+                </div>
+
+            </section>
+
+        </main>
+        <footer>
+            <p class="Copyright"> &copy; Kcorea 2023</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
